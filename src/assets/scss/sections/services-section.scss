@@ -1,0 +1,10 @@
+#services-section {
+	padding-top: $grid-row-top-padding*3;
+	padding-bottom: $grid-row-top-padding*4;
+	h3 {
+		padding-bottom: $grid-row-top-padding*1.5;
+	}
+	h3, h4, p {
+		color: $white;
+	}
+}

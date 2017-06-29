@@ -1,0 +1,21 @@
+#contact-section {
+	padding-top: $grid-row-top-padding*3.5;
+	padding-bottom: $grid-row-top-padding*3;
+	h3, p {
+		color: $white;
+	}
+	h3 {
+		padding-bottom: $grid-row-top-padding*2;
+	}
+	.button {
+		border: 1px solid smart-scale($secondary-color, 10%);
+		color: smart-scale($white, -50%);
+		transition: border-color 0.25s ease-in-out;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.button:hover {
+		border: 1px solid smart-scale($secondary-color, 50%);
+		color: $white;
+	}
+}

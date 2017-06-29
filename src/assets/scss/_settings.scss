@@ -66,8 +66,10 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1000);
 $global-lineheight: 1.5;
+$blue: #4475C8;
+$purple: #7F109C;
 $foundation-palette: (
   primary: #4475C8,
   secondary: #7F109C,
@@ -80,16 +82,16 @@ $medium-gray: #cacaca;
 $dark-gray: #575757;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $white;
+$body-background: #4475c8;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Open Sans', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 2px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -116,6 +118,7 @@ $breakpoint-classes: (small medium large);
 // 3. The Grid
 // -----------
 
+$grid-row-top-padding: 1rem;
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
@@ -130,7 +133,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: 400;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
@@ -139,17 +142,17 @@ $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
-    'h4': ('font-size': 18),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 20),
+    'h4': ('font-size': 20),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 20),
+    'h4': ('font-size': 20),
     'h5': ('font-size': 20),
     'h6': ('font-size': 16),
   ),
@@ -426,20 +429,20 @@ $form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
-$input-color: $black;
-$input-placeholder-color: $medium-gray;
+$input-color: $white;
+$input-placeholder-color: $light-gray;
 $input-font-family: inherit;
-$input-font-size: rem-calc(16);
+$input-font-size: rem-calc(14);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
-$input-background: $white;
-$input-background-focus: $white;
+$input-background: transparent;
+$input-background-focus: transparent;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $medium-gray;
-$input-border-focus: 1px solid $dark-gray;
-$input-padding: $form-spacing / 2;
-$input-shadow: inset 0 1px 2px rgba($black, 0.1);
-$input-shadow-focus: 0 0 5px $medium-gray;
+$input-border: 1px solid smart-scale($secondary-color, 12%);
+$input-border-focus: 1px solid smart-scale($secondary-color, 50%);
+$input-padding: $form-spacing / 1.5;
+$input-shadow: none;
+$input-shadow-focus: none;
 $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
 $input-number-spinners: true;

@@ -1,0 +1,11 @@
+#tech-section {
+	padding-top: $grid-row-top-padding*3;
+	padding-bottom: $grid-row-top-padding*4;
+	background: $white;
+	h3 {
+		padding-bottom: $grid-row-top-padding*1.5;
+	}
+	h3:after {
+		border-bottom: 1px solid $dark-gray;
+	}
+}
