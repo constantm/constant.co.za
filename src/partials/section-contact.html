@@ -28,10 +28,12 @@
       </p>
     </div>
     <div class="medium-6 columns">
-      <form action="">
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Email">
-        <textarea rows="5" placeholder="Message"></textarea>
+      <form action="https://formspree.io/hello@constant.co.za"
+      method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="_replyto" placeholder="Email">
+        <input type="hidden" name="_subject" value="Lead" />
+        <textarea rows="5" name="message" placeholder="Message"></textarea>
         <div class="panel clearfix">
           <button type="submit" class="hollow button float-right">Send</button>
         </div>
