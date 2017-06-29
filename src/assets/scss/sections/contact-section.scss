@@ -18,4 +18,12 @@
 		border: 1px solid smart-scale($secondary-color, 50%);
 		color: $white;
 	}
+	a {
+		color: $white;
+		// opacity:0.8;
+		font-weight:600;
+	}
+	a:hover {
+		opacity: 0.8;
+	}
 }
