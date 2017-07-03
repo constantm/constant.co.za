@@ -39,6 +39,7 @@
     "rimraf": "^2.4.3",
     "style-sherpa": "^1.0.0",
     "vinyl-named": "^1.1.0",
+    "vivus": "^0.4.1",
     "webpack": "^2.6.1",
     "webpack-stream": "^3.2.0",
     "what-input": "^4.2.0",
