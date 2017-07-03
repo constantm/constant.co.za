@@ -1,12 +1,12 @@
-import $ from 'jquery';
-import whatInput from 'what-input';
+import vivus from 'vivus';
 
-window.$ = $;
+new vivus('icon-hammer', {duration: 100});
+var v2 = new vivus('icon-webapp', {duration: 100, start: 'manual'});
+var v3 = new vivus('icon-compass', {duration: 100, start: 'manual'});
 
-import Foundation from 'foundation-sites';
-// If you want to pick and choose which modules to include, comment out the above and uncomment
-// the line below
-//import './lib/foundation-explicit-pieces';
-
-
-$(document).foundation();
+setTimeout(function(){
+	v2.play();
+}, 400)
+setTimeout(function(){
+	v3.play();
+}, 800)
