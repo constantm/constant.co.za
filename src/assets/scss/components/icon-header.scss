@@ -1,7 +1,15 @@
 .icon-header {
 	margin-bottom:3rem;
+	@include breakpoint(medium only) {
+		margin-bottom:1.5rem;
+	}
 	.icon {
 		height:2.8em;
 		margin: 0px .5em -1.4rem 0;
+		@include breakpoint(medium only) {
+			display:block;
+			height:2.2em;
+			margin: 0px 0 0.4em -0.5em;
+		}
 	}
 }

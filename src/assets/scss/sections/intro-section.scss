@@ -1,6 +1,10 @@
 #intro-section {
 	padding-top: $grid-row-top-padding*4;
 	padding-bottom: $grid-row-top-padding*3;
+	@include breakpoint(medium down) {
+		padding-top: $grid-row-top-padding*2;
+		padding-bottom: $grid-row-top-padding;
+	}
 	background: $white;
 	.larger-type {
 		font-size:140%;

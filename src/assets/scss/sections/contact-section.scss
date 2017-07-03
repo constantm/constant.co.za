@@ -1,11 +1,18 @@
 #contact-section {
 	padding-top: $grid-row-top-padding*3.5;
 	padding-bottom: $grid-row-top-padding*3;
+	@include breakpoint(medium down) {
+		padding-top: $grid-row-top-padding*2;
+		padding-bottom: $grid-row-top-padding;
+	}
 	h3, p {
 		color: $white;
 	}
 	h3 {
 		padding-bottom: $grid-row-top-padding*2;
+		@include breakpoint(medium down) {
+			padding-bottom: $grid-row-top-padding;
+		}
 	}
 	.button {
 		border: 1px solid smart-scale($secondary-color, 10%);
