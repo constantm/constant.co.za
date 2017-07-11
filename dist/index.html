@@ -1,26 +1,18 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constant Meiring - Freelance Ruby on Rails Developer</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/app.css">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/manifest.json">
-    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
-    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#fff">
   </head>
   <body>
-
-    <div class="container" id="header-section">
+    <header class="container" id="header-section">
       <div class="row">
         <div class="small-6 columns">
           <h1><b>constant</b>meiring</h1>
@@ -29,21 +21,21 @@
           <a href="#contact-section" class="float-right button data-smooth-scroll">get in touch</a>
         </div>
       </div>
-    </div>
-    <div class="container" id="intro-section">
+    </header>
+    <section class="container" id="intro-section">
       <div class="row">
         <div class="small-3 medium-3 columns small-only-text-center">
-          <img src="assets/img/constant-meiring.png" alt="Constant Meiring - Freelance Ruby On Rails Developer">
+          <img src="/img/constant-meiring.png" alt="Constant Meiring - Freelance Ruby On Rails Developer">
         </div>
         <div class="small-9 medium-9 columns">
           <p class="larger-type">Hey there!</p>
           <p>I’m Constant, a <b>freelance Ruby on Rails developer</b> with experience in a wide range of 
           technologies. I’ve spent the better part of the last decade helping build
-          startups like <a target="_blank" title="Leaply" href="https://leap.ly">Leaply</a> and <a title="Offerzen" target="_blank" href="https://www.offerzen.com">Offerzen</a>. I enjoy building things, cuddling my cats,  travelling to new countries and exploring South Africa with my BMW F800GSA.</p>
+          startups like <a target="_blank" href="https://leap.ly">Leaply</a> and <a target="_blank" href="https://www.offerzen.com">Offerzen</a>. I enjoy building things, cuddling my cats,  travelling to new countries and exploring South Africa with my BMW F800GSA.</p>
         </div>
       </div>
-    </div>
-    <div class="container" id="services-section">
+    </section>
+    <section class="container" id="services-section">
       <div class="row">
         <div class="medium-12 columns">
           <h3>Services</h3>
@@ -108,8 +100,8 @@
           </p>
         </div>
       </div>
-    </div>
-    <div class="container" id="tech-section">
+    </section>
+    <section class="container" id="tech-section">
       <div class="row">
         <div class="medium-6 columns">
           <h3>Preferred Technologies</h3>
@@ -156,10 +148,10 @@
         <div class="medium-6 columns">
           <h3>Experienced In</h3>
             <span class="tag">
-              <span class="title">PHP</span>
+              <span class="title">Javascript</span>
             </span>
             <span class="tag">
-              <span class="title">Python</span>
+              <span class="title">PHP</span>
             </span>
             <span class="tag">
               <span class="title">Wordpress</span>
@@ -169,6 +161,9 @@
             </span>
             <span class="tag">
               <span class="title">ElasticSearch</span>
+            </span>
+            <span class="tag">
+              <span class="title">Python</span>
             </span>
             <span class="tag">
               <span class="title">NodeJS</span>
@@ -187,8 +182,8 @@
             </span>
         </div>
       </div>
-    </div>
-    <div class="container" id="contact-section">
+    </section>
+    <section class="container" id="contact-section">
       <div class="row">
         <div class="medium-12 columns">
           <h3>Get in touch</h3>
@@ -255,23 +250,23 @@
             </div>
           </form>
         </div>
-    </div>
-    <div class="container" id="footer-section">
-      <div class="row">
-        <div class="medium-12 columns attribution">
-          Copyright 2017 Constant Meiring. Icons by <a target="_blank" href="http://linea.io/">Dario Ferrando</a> and <a target="_blank" href="http://folstudio.com/">Fol</a>.
-        </div>
       </div>
-    </div>
-
+    </section>
+    <footer class="container" id="footer-section">
+      <div class="row">
+        <p class="medium-12 columns attribution">
+          Copyright 2017 Constant Meiring. Icons by <a target="_blank" href="http://linea.io/">Dario Ferrando</a> and <a target="_blank" href="http://folstudio.com/">Fol</a>.
+        </p>
+      </div>
+    </footer>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-101950938-1', 'auto');
-      ga('send', 'pageview');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-101950938-1', 'auto');
+    ga('send', 'pageview');
     </script>
-    <script src="assets/js/app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
