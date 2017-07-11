@@ -1,0 +1,2 @@
+constant.co.za is built and maintained by Constant Meiring.
+Other contributors can viewed at: https://github.com/constantm/constant.co.za/graphs/contributors
