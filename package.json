@@ -11,7 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "foundation-sites": "6.4.0",
-    "motion-ui": "~1.2.2"
+    "motion-ui": "~1.2.2",
+    "node-sass": "^4.9.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
