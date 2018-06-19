@@ -40,7 +40,7 @@ foundation new --framework sites --template zurb
 
 The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
-Now `cd` to your project name and to start your project run 
+Now `cd` to your project name and to start your project run
 
 ```bash
 foundation watch
@@ -69,3 +69,9 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+### Deploy to Github - gh-pages branch
+
+```
+git push origin `git subtree split --prefix dist master`:gh-pages --force
+```
